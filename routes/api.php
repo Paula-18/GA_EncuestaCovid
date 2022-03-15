@@ -28,3 +28,7 @@ Route::post('/respuestas',
 Route::get('/tiposusuario',
     'Api\TiposUsuarioController@index')->
     name('api.tiposusuario.index');
+
+Route::get('/sintomas', 
+    'Api\SintomasController@index')->
+    name('api.sintomas.index');
